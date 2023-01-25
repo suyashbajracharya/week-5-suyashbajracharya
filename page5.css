@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(5, 65, 5);
+    width: 100%;
+    color: white;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    font-size: x-large;
+    text-align: center;
+}
+.right{
+    width: 50%;
+}

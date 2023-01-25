@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(97, 128, 97);
+}
+
+.left{
+    float: left;
+    font-size: x-large;
+    color: white;
+}
+.right{
+    float: right;
+    font-size: large;
+    color: wheat;
+}

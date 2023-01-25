@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Poppins:ital,wght@1,100&family=Roboto:wght@100&display=swap');
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.two-halves{
+  font-family: 'Roboto', sans-serif;
+  display:flex;
+}
+.left-half{
+  width: 50%;
+  background-color: #ADD8E6;
+  padding: 15%;
+  color: #ffffff;
+}
+.button {
+  margin-top: 20px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 50px;
+  background: orange;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.button a:hover {
+  background: black;
+  color: orange;
+}
+.right-half{
+  width:50%;
+}
+figure{
+  width:100%;
+  height:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*
+Responsive Web Design.
+-----------------------
+1024   - tablet
+768    - phone
+420    - phone portrait
+
+*/
+
+@media screen and (max-width: 1024px) {
+    .button a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content-wrapper {
+      padding-bottom: 50px;
+    }
+  
+    .left-col,
+    .right-col {
+      width: 100%;
+    }
+  
+    figure {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .button a {
+      text-align: center;
+    }
+  }
+  /*  */
+  

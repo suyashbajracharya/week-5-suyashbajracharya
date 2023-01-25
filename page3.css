@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    background-color: orange;
+}
+.img{
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+}
